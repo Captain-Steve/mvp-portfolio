@@ -3,11 +3,37 @@
             Body
 *************************************************************/
 body {
-  background: #ffffff !important;
+  background: #0a141f;
+  padding: 0px;
 }
 body main {
   height: 100%;
 }
 body main .row {
+  padding: 72px 0px!important;
   height: 100%;
+}
+body main .row .col blockquote {
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+body main .row .col blockquote .heading-light {
+  font-size: 20px;
+  margin-top: 16px;
+}
+body main .row .col blockquote .heading-light span a {
+  color: #f91646;
+}
+body.active {
+  background: #ffffff;
+}
+body.active main .row .col blockquote {
+  color: #1a1a1a;
+}
+body.active main .row .col blockquote .heading-light span a {
+  color: #007bff;
+}
+body.active main .row .col blockquote .heading-light span a:hover {
+  color: #f91646;
+  text-decoration: none;
 }

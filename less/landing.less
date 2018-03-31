@@ -2,11 +2,72 @@
             Body
 *************************************************************/
 body {
-    background: rgba(255,255,255,1)!important;
+//    background-color: rgb(244, 34, 75);
+//    background-image: linear-gradient(90deg, rgb(244, 34, 75), #762F9A);
+    background: #0a141f;
+
+    padding: 0px;
     main {
         height: 100%;
         .row {
+            padding: 72px 0px!important;
             height: 100%;
+            .col {
+                blockquote {
+                    color: rgba(255,255,255,1);
+                    margin-bottom: 0px;
+                    .heading-light {
+                        font-size: 20px;
+                        margin-top: 16px;
+                        span a {
+                            color: #f91646;
+                        }
+                        span a:hover {
+//                            color: #f91646;
+//                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body.active {
+    background: rgba(255,255,255,1);
+    main {
+        .row {
+            .col {
+                blockquote {
+                    color: #1a1a1a;
+                    .heading-light {
+                        span a {
+                            color: #007bff;
+                        }
+                        span a:hover {
+                            color: #f91646;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+//        background-color: lightblue;
+        main {
+            .row {
+                .col {
+                    blockquote {
+//                        text-align: left;
+                        .heading-light {
+                        }
+                    }
+                }
+            }
         }
     }
 }
