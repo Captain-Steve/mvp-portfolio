@@ -13,9 +13,13 @@ body {
             padding: 72px 0px!important;
             height: 100%;
             .col {
-                blockquote {
+                .blockquote {
                     color: rgba(255,255,255,1);
                     margin-bottom: 0px;
+                    > * {
+                        -webkit-transition:: all 0.4s ease;
+                        transition: all 0.4s ease;
+                    }
                     .display-1 {
 //                        font-size: 56px;
                         font-size: 4.4vw;
@@ -24,9 +28,9 @@ body {
                     .heading-light {
 //                        margin-top: 12px;
 //                        font-size: 20px;
-                        font-size: 1.6vw;
-                        line-height: 1.6vw;
-                        margin-top: 1.6vw;
+                        font-size: 1.8vw;
+                        line-height: 1.8vw;
+                        margin-top: 1.8vw;
                         span a {
                             color: #f91646;
                         }
@@ -50,6 +54,8 @@ body.active {
                     color: #1a1a1a;
                     .heading-light {
                         span a {
+                            -webkit-transition:: color 0.4s ease;
+                            transition: color 0.4s ease;
                             color: #007bff;
                         }
                         span a:hover {
@@ -63,22 +69,71 @@ body.active {
     }
 }
 
-@media only screen and (max-width: 576px) {
-    body {
-        background-color: lightblue;
+@media (max-width: 980px) {
+    body.active {
+//        background-color: aliceblue;
         main {
             .row {
                 .col {
                     blockquote {
-//                        text-align: left;
                         .display-1 {
-                            font-size: 18vw;
-                            line-height: 8vw;
+                            font-size: 5.8vw;
+                            line-height: 5.8vw;
                         }
                         .heading-light {
-                            font-size: 3vw;
-                            line-height: 3vw;
+                            font-size: 2.2vw;
+                            line-height: 2.2vw;
+                            margin-top: 2.2vw;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 640px) {
+    body.active {
+//        background-color: orange;
+        main {
+            .row {
+                .col {
+                    blockquote {
+                        .display-1 {
+                            font-size: 7.4vw;
+                            line-height: 7.4vw;
+                        }
+                        .heading-light {
+                            font-size: 2.8vw;
+                            line-height: 2.8vw;
+                            margin-top: 2.8vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 420px) {
+    body.active {
+//        background-color: mistyrose;
+        main {
+            .row {
+                .col {
+                    blockquote {
+                        .display-1 {
+                            font-size: 9vw;
+                            line-height: 9vw;
+                        }
+                        .heading-light {
+                            font-size: 3.6vw;
+                            line-height: 3.6vw;
+                            margin-top: 3.6vw;
+                        }
+                    }
                 }
             }
         }
