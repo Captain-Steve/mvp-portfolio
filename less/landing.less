@@ -16,9 +16,17 @@ body {
                 blockquote {
                     color: rgba(255,255,255,1);
                     margin-bottom: 0px;
+                    .display-1 {
+//                        font-size: 56px;
+                        font-size: 4.4vw;
+                        line-height: 4.4vw;
+                    }
                     .heading-light {
-                        font-size: 20px;
-                        margin-top: 16px;
+//                        margin-top: 12px;
+//                        font-size: 20px;
+                        font-size: 1.6vw;
+                        line-height: 1.6vw;
+                        margin-top: 1.6vw;
                         span a {
                             color: #f91646;
                         }
@@ -57,15 +65,20 @@ body.active {
 
 @media only screen and (max-width: 576px) {
     body {
-//        background-color: lightblue;
+        background-color: lightblue;
         main {
             .row {
                 .col {
                     blockquote {
 //                        text-align: left;
-                        .heading-light {
+                        .display-1 {
+                            font-size: 18vw;
+                            line-height: 8vw;
                         }
-                    }
+                        .heading-light {
+                            font-size: 3vw;
+                            line-height: 3vw;
+                        }
                 }
             }
         }

@@ -17,9 +17,15 @@ body main .row .col blockquote {
   color: #ffffff;
   margin-bottom: 0px;
 }
+body main .row .col blockquote .display-1 {
+  font-size: 5vw;
+  font-size: 4.4vw;
+  line-height: 4.4vw;
+}
 body main .row .col blockquote .heading-light {
-  font-size: 20px;
-  margin-top: 16px;
+  font-size: 1.6vw;
+  line-height: 1.6vw;
+  margin-top: 1.6vw;
 }
 body main .row .col blockquote .heading-light span a {
   color: #f91646;
