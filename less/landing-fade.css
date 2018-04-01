@@ -35,13 +35,15 @@ body main .row .col .blockquote .heading-light {
 body main .row .col .blockquote .heading-light span a {
   text-decoration: none;
   color: #f91646;
-  border-bottom: 1px solid #f91646;
-  transition: color 1s ease, border 1s ease!important;
-  -webkit-transition: : color 1s ease, border 1s ease!important;
+  border-bottom: 1px solid rgba(249, 22, 70, 0);
+  transition: color 0.4s ease, border 0.4s ease!important;
+  -webkit-transition: : color 0.4s ease, border 0.4s ease!important;
 }
 body main .row .col .blockquote .heading-light span a:hover {
   color: #007bff;
-  border-bottom: 1px solid #007bff;
+  border-bottom: 1px solid rgba(249, 22, 70, 0);
+  transition: color 1s ease, border 1s ease!important;
+  -webkit-transition: : color 1s ease, border 1s ease!important;
 }
 body.active {
   background: #ffffff;
@@ -51,7 +53,6 @@ body.active main .row .col blockquote {
 }
 body.active main .row .col blockquote .heading-light span a {
   color: #007bff;
-  border-bottom: 1px solid rgba(0, 123, 255, 0);
 }
 body.active main .row .col blockquote .heading-light span a:hover {
   color: #007bff;
