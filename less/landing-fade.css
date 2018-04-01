@@ -5,8 +5,8 @@
 body {
   background: #0f0f1e;
   padding: 0px;
-  -webkit-transition: : all 2s ease!important;
-  transition: all 2s ease!important;
+  -webkit-transition: : all 0.8s ease!important;
+  transition: all 0.8s ease!important;
 }
 body main {
   height: 100%;
@@ -20,8 +20,8 @@ body main .row .col .blockquote {
   margin-bottom: 0px;
 }
 body main .row .col .blockquote > * {
-  -webkit-transition: : all 2s ease!important;
-  transition: all 2s ease!important;
+  -webkit-transition: : all 0.8s ease!important;
+  transition: all 0.8s ease!important;
 }
 body main .row .col .blockquote .display-1 {
   font-size: 4.4vw;
@@ -36,8 +36,8 @@ body main .row .col .blockquote .heading-light span a {
   text-decoration: none;
   color: #f91646;
   border-bottom: 1px solid #f91646;
-  transition: color 2s, border 2s!important;
-  -webkit-transition: : color 2s, border 2s!important;
+  transition: color 1s ease, border 1s ease!important;
+  -webkit-transition: : color 1s ease, border 1s ease!important;
 }
 body main .row .col .blockquote .heading-light span a:hover {
   color: #007bff;
@@ -51,7 +51,7 @@ body.active main .row .col blockquote {
 }
 body.active main .row .col blockquote .heading-light span a {
   color: #007bff;
-  border-bottom: 1px solid #007bff;
+  border-bottom: 1px solid rgba(0, 123, 255, 0);
 }
 body.active main .row .col blockquote .heading-light span a:hover {
   color: #007bff;
