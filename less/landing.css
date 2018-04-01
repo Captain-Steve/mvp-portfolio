@@ -3,8 +3,10 @@
             Body
 *************************************************************/
 body {
-  background: #0a141f;
+  background: #0f0f1e;
   padding: 0px;
+  -webkit-transition: : all 2s ease!important;
+  transition: all 2s ease!important;
 }
 body main {
   height: 100%;
@@ -18,8 +20,8 @@ body main .row .col .blockquote {
   margin-bottom: 0px;
 }
 body main .row .col .blockquote > * {
-  -webkit-transition: : all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: : all 2s ease!important;
+  transition: all 2s ease!important;
 }
 body main .row .col .blockquote .display-1 {
   font-size: 4.4vw;
@@ -31,7 +33,15 @@ body main .row .col .blockquote .heading-light {
   margin-top: 1.6vw;
 }
 body main .row .col .blockquote .heading-light span a {
+  text-decoration: none;
   color: #f91646;
+  border-bottom: 1px solid #f91646;
+  transition: color 2s, border 2s!important;
+  -webkit-transition: : color 2s, border 2s!important;
+}
+body main .row .col .blockquote .heading-light span a:hover {
+  color: #007bff;
+  border-bottom: 1px solid #007bff;
 }
 body.active {
   background: #ffffff;
@@ -40,44 +50,43 @@ body.active main .row .col blockquote {
   color: #1a1a1a;
 }
 body.active main .row .col blockquote .heading-light span a {
-  -webkit-transition: : color 0.4s ease;
-  transition: color 0.4s ease;
   color: #007bff;
+  border-bottom: 1px solid #007bff;
 }
 body.active main .row .col blockquote .heading-light span a:hover {
-  color: #f91646;
-  text-decoration: none;
+  color: #007bff;
+  border-bottom: 1px solid #007bff;
 }
 @media (max-width: 980px) {
   body main .row .col blockquote .display-1 {
-    font-size: 5.8vw;
-    line-height: 5.8vw;
+    font-size: 5.8vw!important;
+    line-height: 5.8vw!important;
   }
   body main .row .col blockquote .heading-light {
-    font-size: 2.2vw;
-    line-height: 2.2vw;
-    margin-top: 2.2vw;
+    font-size: 2.2vw!important;
+    line-height: 2.2vw!important;
+    margin-top: 2.2vw!important;
   }
 }
 @media (max-width: 640px) {
   body main .row .col blockquote .display-1 {
-    font-size: 7.4vw;
-    line-height: 7.4vw;
+    font-size: 7.4vw!important;
+    line-height: 7.4vw!important;
   }
   body main .row .col blockquote .heading-light {
-    font-size: 2.8vw;
-    line-height: 2.8vw;
-    margin-top: 2.8vw;
+    font-size: 2.8vw!important;
+    line-height: 2.8vw!important;
+    margin-top: 2.8vw!important;
   }
 }
 @media (max-width: 420px) {
   body main .row .col blockquote .display-1 {
-    font-size: 9vw;
-    line-height: 9vw;
+    font-size: 9vw!important;
+    line-height: 9vw!important;
   }
   body main .row .col blockquote .heading-light {
-    font-size: 3.6vw;
-    line-height: 3.6vw;
-    margin-top: 3.6vw;
+    font-size: 3.6vw!important;
+    line-height: 3.6vw!important;
+    margin-top: 3.6vw!important;
   }
 }
