@@ -24,8 +24,8 @@ body main .row .col .blockquote > * {
   transition: all 0.8s ease!important;
 }
 body main .row .col .blockquote .display-1 {
-  font-size: 4vw;
-  line-height: 4vw;
+  font-size: 3.8vw;
+  line-height: 3.8vw;
 }
 body main .row .col .blockquote .heading-light {
   font-size: 1.4vw;
@@ -35,14 +35,12 @@ body main .row .col .blockquote .heading-light {
 body main .row .col .blockquote .heading-light span a {
   text-decoration: none;
   color: #f91646;
-  font-weight: 500;
-  border-bottom: 0.1vw solid #f91646;
+  border-bottom: 0.1vw solid rgba(249, 22, 70, 0);
   transition: color 0.4s ease, border 0.4s ease!important;
   -webkit-transition: : color 0.4s ease, border 0.4s ease!important;
 }
 body main .row .col .blockquote .heading-light span a:hover {
-  color: #007bff;
-  border-bottom: 0.1vw solid rgba(249, 22, 70, 0);
+  border-bottom: 0.1vw solid #f91646;
   transition: color 1s ease, border 1s ease!important;
   -webkit-transition: : color 1s ease, border 1s ease!important;
 }
@@ -93,13 +91,19 @@ body.active main .row .col blockquote .heading-light span a:hover {
   }
 }
 @media (max-width: 420px) {
+  body main .row .col blockquote {
+    margin-top: -10vw;
+  }
   body main .row .col blockquote .display-1 {
-    font-size: 9vw!important;
-    line-height: 9vw!important;
+    font-size: 9.4vw!important;
+    line-height: 9.4vw!important;
   }
   body main .row .col blockquote .heading-light {
     font-size: 4.2vw!important;
     line-height: 4.2vw!important;
     margin-top: 4.2vw!important;
+  }
+  body main .row .col blockquote .heading-light span {
+    border-bottom: 0.1vw solid #f91646;
   }
 }

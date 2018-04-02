@@ -21,8 +21,9 @@ body {
                     }
                     .display-1 {
 //                        font-size: 56px;
-                        font-size: 4vw;
-                        line-height: 4vw;
+                        font-size: 3.8vw;
+                        line-height: 3.8vw;
+//                        font-weight: 500;
                     }
                     .heading-light {
 //                        margin-top: 12px;
@@ -34,16 +35,15 @@ body {
                             text-decoration: none;
                             color: rgba(249,22,70,1);
 //                            border-bottom: 0.1vw solid rgba(15,15,30,1);
-                            font-weight: 500;
-                            border-bottom: 0.1vw solid rgba(249,22,70,1);
+                            border-bottom: 0.1vw solid rgba(249,22,70,0);
                             transition: color 0.4s ease, border 0.4s ease!important;
                             -webkit-transition:: color 0.4s ease, border 0.4s ease!important;
                         }
                         span a:hover {
-                            color: rgba(0,123,255,1);
-//                            border-bottom: 0.1vw solid rgba(249,22,70,1);
+//                            color: rgba(0,123,255,1);
+                            border-bottom: 0.1vw solid rgba(249,22,70,1);
 //                            border-bottom: 0.1vw solid rgba(0,123,255,1);
-                            border-bottom: 0.1vw solid rgba(249,22,70,0);
+//                            border-bottom: 0.1vw solid rgba(249,22,70,0);
                             transition: color 1s ease, border 1s ease!important;
                             -webkit-transition:: color 1s ease, border 1s ease!important;
                         }
@@ -153,14 +153,18 @@ body.active {
             .row {
                 .col {
                     blockquote {
+                        margin-top: -10vw;
                         .display-1 {
-                            font-size: 9vw!important;
-                            line-height: 9vw!important;
+                            font-size: 9.4vw!important;
+                            line-height: 9.4vw!important;
                         }
                         .heading-light {
                             font-size: 4.2vw!important;
                             line-height: 4.2vw!important;
                             margin-top: 4.2vw!important;
+                            span {
+                                border-bottom: 0.1vw solid rgba(249,22,70,1);
+                            }
                         }
                     }
                 }
