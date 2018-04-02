@@ -35,13 +35,13 @@ body main .row .col .blockquote .heading-light {
 body main .row .col .blockquote .heading-light span a {
   text-decoration: none;
   color: #f91646;
-  border-bottom: 1px solid rgba(249, 22, 70, 0);
+  border-bottom: 0.1vw solid rgba(249, 22, 70, 0);
   transition: color 0.4s ease, border 0.4s ease!important;
   -webkit-transition: : color 0.4s ease, border 0.4s ease!important;
 }
 body main .row .col .blockquote .heading-light span a:hover {
   color: #007bff;
-  border-bottom: 1px solid rgba(249, 22, 70, 0);
+  border-bottom: 0.1vw solid rgba(249, 22, 70, 0);
   transition: color 1s ease, border 1s ease!important;
   -webkit-transition: : color 1s ease, border 1s ease!important;
 }
@@ -56,7 +56,7 @@ body.active main .row .col blockquote .heading-light span a {
 }
 body.active main .row .col blockquote .heading-light span a:hover {
   color: #007bff;
-  border-bottom: 1px solid #007bff;
+  border-bottom: 0.1vw solid #007bff;
 }
 @media (max-width: 980px) {
   body main .row .col blockquote .display-1 {
