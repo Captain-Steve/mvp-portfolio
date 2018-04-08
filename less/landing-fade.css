@@ -32,14 +32,14 @@ body main .row .col .blockquote .heading-light {
   line-height: 1.4vw;
   margin-top: 1.4vw;
 }
-body main .row .col .blockquote .heading-light span a {
+body main .row .col .blockquote .heading-light a {
   text-decoration: none;
-  color: #f91646;
+  color: #f91646 !important;
   border-bottom: 0.1vw solid rgba(249, 22, 70, 0);
   transition: color 0.4s ease, border 0.4s ease!important;
   -webkit-transition: : color 0.4s ease, border 0.4s ease!important;
 }
-body main .row .col .blockquote .heading-light span a:hover {
+body main .row .col .blockquote .heading-light a:hover {
   border-bottom: 0.1vw solid #f91646;
   transition: color 1s ease, border 1s ease!important;
   -webkit-transition: : color 1s ease, border 1s ease!important;
@@ -89,6 +89,9 @@ body.active main .row .col blockquote .heading-light span a:hover {
     line-height: 3vw!important;
     margin-top: 3vw!important;
   }
+  body main .row .col blockquote .heading-light span {
+    border-bottom: 0.1vw solid #f91646;
+  }
 }
 @media (max-width: 420px) {
   body main .row .col blockquote {
@@ -102,8 +105,5 @@ body.active main .row .col blockquote .heading-light span a:hover {
     font-size: 4.2vw!important;
     line-height: 4.2vw!important;
     margin-top: 4.2vw!important;
-  }
-  body main .row .col blockquote .heading-light span {
-    border-bottom: 0.1vw solid #f91646;
   }
 }
